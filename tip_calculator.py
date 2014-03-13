@@ -10,7 +10,7 @@ tip_value = meal_with_tax * tip
 
 total = meal_with_tax + tip_value
 
-print "The cost of the meal without tax and tip is %r." % meal
-print "At a tax rate of %r, the total amount of the tax is %r." % (tax, tax_value)
-print "You should tip %r, or %r of the cost of the meal with tax included." % (tip_value, tip)
-print "With tax and tip included, the total cost of the meal is %r." % total
+print "The cost of the meal without tax and tip is $%.2f." % meal
+print "At a tax rate of %.2f, the total amount of the tax is $%.2f." % (tax, tax_value)
+print "You should tip $%.2f, or %.2f of the cost of the meal with tax included." % (tip_value, tip)
+print "With tax and tip included, the total cost of the meal is $%.2f." % total
