@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 
-print "How much does the meal cost without tax?",
-meal = raw_input()
-print "What is the tax rate?",
-tax = raw_input()
-print "What percent would you like to tip?",
-tip = raw_input()
+import sys
+
+meal = sys.argv[1]
+tax = sys.argv[2]
+tip = sys.argv[3]
 
 meal_float = float(meal)
 tax_float = float(tax)
